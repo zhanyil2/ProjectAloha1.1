@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Information!!!" />
+
+    <TextView
+        android:id="@+id/othername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This user has no name" />
+
+    <TextView
+        android:id="@+id/otherage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This user hasn't set age" />
+
+    <TextView
+        android:id="@+id/otheruniversity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This user hasn't set university" />
+
+    <TextView
+        android:id="@+id/othersex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This user hasn't set sex" />
+
+    <TextView
+        android:id="@+id/otherdescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This user hasn't set description" />
+
+    <TextView
+        android:id="@+id/otherwords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This user said nothing" />
+
+    <TextView
+        android:id="@+id/messageCrypted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
